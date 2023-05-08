@@ -100,10 +100,10 @@
 
     raise {
       bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans   &mo 3  &trans
+&trans   &none  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9   &none    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
+&trans  &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                          &trans           &trans  &trans    &trans   &mo 3  &trans
       >;
     };
 
